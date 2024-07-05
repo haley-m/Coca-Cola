@@ -1,0 +1,23 @@
+header, section, footer {
+  width: 100%;
+}
+
+/* ScrollOut  */
+[data-scroll] {
+  transition: opacity 1s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+}
+[data-scroll="out"] {
+  opacity: 0;
+}
+
+
+/* AOS  */
+[data-aos] {
+  body[data-aos-easing="my-easing"] &,
+  &[data-aos][data-aos-easing="my-easing"] {
+    transition-timing-function: cubic-bezier(0, 1.86, 0.65, 0.52);
+  }
+}
