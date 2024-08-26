@@ -1,6 +1,7 @@
 .wrap {
   width: 100%;
   position: relative;
+  overflow: hidden;
 }
 
 header {
@@ -326,6 +327,108 @@ dotlottie-player:nth-child(2) {
   top: 280px;
   right: 40px;
   text-align: right;
+}
+
+@media all and (max-width: 1800px) {
+  .floating_img {
+    width: 1800px;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .floating_img > img:nth-child(1) {
+    width: 490px;
+    left: 20px;
+  }
+
+  .floating_img > img:nth-child(2) {
+    width: 440px;
+    left: -120px;
+  }
+
+  .floating_img > img:nth-child(3) {
+    width: 410px;
+    left: -280px;
+  }
+
+  .floating_img > img:nth-child(4) {
+    width: 490px;
+    left: -470px;
+  }
+
+  .sec_3_text_box {
+    top: -270px;
+  }
+}
+
+@media all and (max-width: 1600px) {
+  .section_3 {
+    height: 1160px;
+  }
+
+  .santa_bear > img:nth-child(1) {
+    width: 800px;
+    top: -54px;
+    left: 392px;
+  }
+
+  .sec_3_text_box {
+    top: -270px;
+  }
+}
+
+@media all and (max-width: 1460px) {
+  .santa_bear > img:nth-child(1) {
+    top: -25px;
+    left: 332px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .section_3 {
+    height: 900px;
+  }
+
+  .floating_img > img:nth-child(1) {
+    width: 306px;
+    left: -8px;
+  }
+
+  .floating_img > img:nth-child(2) {
+    width: 340px;
+    left: -140px;
+  }
+
+  .floating_img > img:nth-child(3) {
+    width: 310px;
+    left: -290px;
+  }
+
+  .floating_img > img:nth-child(4) {
+    width: 390px;
+    left: -450px;
+  }
+
+  .santa_bear > img:nth-child(1) {
+    width: 620px;
+    top: -94px;
+    left: 252px;
+  }
+
+  .sec_3_text_box {
+    top: -330px;
+  }
+
+  .sec_3_title {
+    font-size: 80px;
+    top: 170px;
+  }
+}
+
+@media all and (max-width: 800px) {
+}
+
+@media all and (max-width: 500px) {
 }
 
 /* section_3 end  */
