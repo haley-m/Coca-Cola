@@ -316,55 +316,6 @@ dotlottie-player:nth-child(2) {
   text-align: right;
 }
 
-@media all and (max-width: 1800px) {
-  .floating_img {
-    width: 1800px;
-    margin-bottom: 50px;
-  }
-
-  .floating_img > img:nth-child(1) {
-    width: 490px;
-    left: 20px;
-  }
-
-  .floating_img > img:nth-child(2) {
-    width: 440px;
-    left: -120px;
-  }
-
-  .floating_img > img:nth-child(3) {
-    width: 410px;
-    left: -280px;
-  }
-
-  .floating_img > img:nth-child(4) {
-    width: 490px;
-    left: -470px;
-  }
-}
-
-@media all and (max-width: 1280px) {
-  .floating_img > img:nth-child(1) {
-    width: 390px;
-    left: 20px;
-  }
-
-  .floating_img > img:nth-child(2) {
-    width: 340px;
-    left: -140px;
-  }
-
-  .floating_img > img:nth-child(3) {
-    width: 310px;
-    left: -290px;
-  }
-
-  .floating_img > img:nth-child(4) {
-    width: 390px;
-    left: -450px;
-  }
-}
-
 /* section_3 end  */
 
 .section_4 {
