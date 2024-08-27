@@ -1,28 +1,18 @@
 .wrap {
   width: 100%;
   position: relative;
-  overflow: hidden;
 }
 
 header {
   width: 100%;
   height: 100px;
   background-color: #ffffffc5;
-  padding: 0 70px;
-  display: flex;
-  justify-content: center;
-  position: fixed;
-  z-index: 99;
-  /* background-color: lightgreen; */
-}
-
-.in_header {
-  width: 100%;
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: lightcoral; */
+  padding: 0 70px;
+  position: fixed;
+  z-index: 99;
 }
 
 .logo_company {
@@ -30,7 +20,7 @@ header {
 }
 
 .center_in_header {
-  width: 340px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,9 +46,6 @@ header {
 .icons > a {
   width: 30px;
   height: 30px;
-}
-
-@media all and (max-width: 1804px) {
 }
 
 /* header end  */
@@ -279,8 +266,8 @@ dotlottie-player:nth-child(2) {
   width: 510px;
   position: relative;
   /* z-index: 39; */
-  top: 149px;
-  left: -212px;
+  top: 203px;
+  left: -245px;
 }
 
 .cloud_bottom {
@@ -357,10 +344,6 @@ dotlottie-player:nth-child(2) {
 }
 
 @media all and (max-width: 1280px) {
-  /* .floating_img {
-    margin-bottom: 70px;
-  } */
-
   .floating_img > img:nth-child(1) {
     width: 390px;
     left: 20px;
@@ -380,12 +363,6 @@ dotlottie-player:nth-child(2) {
     width: 390px;
     left: -450px;
   }
-}
-
-@media all and (max-width: 800px) {
-}
-
-@media all and (max-width: 500px) {
 }
 
 /* section_3 end  */
